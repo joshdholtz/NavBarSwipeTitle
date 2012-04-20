@@ -42,9 +42,14 @@
     [label3 setTextAlignment:UITextAlignmentCenter];
     
     SwipeLabel *label = [[SwipeLabel alloc] initWithFrame:CGRectMake(0, 0, 120, 30) withOptions:[[NSArray alloc] initWithObjects:label1,label2,label3, nil]];
+    label.delegate = self;
     
     [self.navigationController.navigationBar.topItem setTitleView:label];
     
+}
+
+- (void)swipeLabelChanged:(NSInteger)index withText:(NSString *)text {
+    NSLog(@"%d - %@", index, text);
 }
 
 - (void)viewDidUnload

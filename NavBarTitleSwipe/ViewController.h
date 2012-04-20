@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "SwipeLabel.h"
+
+@interface ViewController : UIViewController<SwipeLabelDelegate>
 
 @end

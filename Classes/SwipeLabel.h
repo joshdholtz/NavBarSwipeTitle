@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol SwipeLabelDelegate <NSObject>
+
+- (void) swipeLabelChanged:(NSInteger)index withText:(NSString*)text;
+
+@end
+
 @interface SwipeLabel : UIView<UIGestureRecognizerDelegate>
 
+@property (nonatomic, assign) id<SwipeLabelDelegate> delegate;
 @property (nonatomic, strong) NSArray *options;
 
 - (id)initWithFrame:(CGRect)frame withOptions:(NSArray*)options;

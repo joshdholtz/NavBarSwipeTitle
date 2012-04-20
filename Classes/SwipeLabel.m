@@ -26,6 +26,7 @@
 
 @synthesize currentIndex = _currentIndex;
 
+@synthesize delegate = _delegate;
 @synthesize options = _options;
 
 - (id)initWithFrame:(CGRect)frame withOptions:(NSArray*)options
@@ -87,6 +88,11 @@
         inLabel.alpha = 1;
     } completion:^(BOOL finished) {
         [outLabel removeFromSuperview];
+        
+        if ([_delegate respondsToSelector:@selector(swipeLabelChanged:withText:)]) {
+            [_delegate swipeLabelChanged:_currentIndex withText:inLabel.text];
+        }
+        
     }];
 }
 
@@ -108,6 +114,11 @@
         inLabel.alpha = 1;
     } completion:^(BOOL finished) {
         [outLabel removeFromSuperview];
+        
+        if ([_delegate respondsToSelector:@selector(swipeLabelChanged:withText:)]) {
+            [_delegate swipeLabelChanged:_currentIndex withText:inLabel.text];
+        }
+        
     }];
 }
 
