@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0345ED9E15415FD90098F617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345ED9D15415FD90098F617 /* UIKit.framework */; };
+		0345EDA015415FD90098F617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345ED9F15415FD90098F617 /* Foundation.framework */; };
+		0345EDA215415FD90098F617 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345EDA115415FD90098F617 /* CoreGraphics.framework */; };
+		0345EDA815415FD90098F617 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0345EDA615415FD90098F617 /* InfoPlist.strings */; };
+		0345EDAA15415FD90098F617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345EDA915415FD90098F617 /* main.m */; };
+		0345EDAE15415FD90098F617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345EDAD15415FD90098F617 /* AppDelegate.m */; };
+		0345EDB115415FD90098F617 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0345EDAF15415FD90098F617 /* MainStoryboard_iPhone.storyboard */; };
+		0345EDB415415FD90098F617 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0345EDB215415FD90098F617 /* MainStoryboard_iPad.storyboard */; };
+		0345EDB715415FD90098F617 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345EDB615415FD90098F617 /* ViewController.m */; };
+		0345EDC0154160260098F617 /* SwipeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345EDBF154160260098F617 /* SwipeLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0345ED9915415FD90098F617 /* NavBarTitleSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavBarTitleSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0345ED9D15415FD90098F617 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0345ED9F15415FD90098F617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0345EDA115415FD90098F617 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0345EDA515415FD90098F617 /* NavBarTitleSwipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavBarTitleSwipe-Info.plist"; sourceTree = "<group>"; };
+		0345EDA715415FD90098F617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0345EDA915415FD90098F617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0345EDAB15415FD90098F617 /* NavBarTitleSwipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavBarTitleSwipe-Prefix.pch"; sourceTree = "<group>"; };
+		0345EDAC15415FD90098F617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0345EDAD15415FD90098F617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0345EDB015415FD90098F617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0345EDB315415FD90098F617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0345EDB515415FD90098F617 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0345EDB615415FD90098F617 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0345EDBE154160260098F617 /* SwipeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeLabel.h; sourceTree = "<group>"; };
+		0345EDBF154160260098F617 /* SwipeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0345ED9615415FD90098F617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0345ED9E15415FD90098F617 /* UIKit.framework in Frameworks */,
+				0345EDA015415FD90098F617 /* Foundation.framework in Frameworks */,
+				0345EDA215415FD90098F617 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0345ED8E15415FD90098F617 = {
+			isa = PBXGroup;
+			children = (
+				0345EDBD154160070098F617 /* Classes */,
+				0345EDA315415FD90098F617 /* NavBarTitleSwipe */,
+				0345ED9C15415FD90098F617 /* Frameworks */,
+				0345ED9A15415FD90098F617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0345ED9A15415FD90098F617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0345ED9915415FD90098F617 /* NavBarTitleSwipe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0345ED9C15415FD90098F617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0345ED9D15415FD90098F617 /* UIKit.framework */,
+				0345ED9F15415FD90098F617 /* Foundation.framework */,
+				0345EDA115415FD90098F617 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0345EDA315415FD90098F617 /* NavBarTitleSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				0345EDAC15415FD90098F617 /* AppDelegate.h */,
+				0345EDAD15415FD90098F617 /* AppDelegate.m */,
+				0345EDAF15415FD90098F617 /* MainStoryboard_iPhone.storyboard */,
+				0345EDB215415FD90098F617 /* MainStoryboard_iPad.storyboard */,
+				0345EDB515415FD90098F617 /* ViewController.h */,
+				0345EDB615415FD90098F617 /* ViewController.m */,
+				0345EDA415415FD90098F617 /* Supporting Files */,
+			);
+			path = NavBarTitleSwipe;
+			sourceTree = "<group>";
+		};
+		0345EDA415415FD90098F617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0345EDA515415FD90098F617 /* NavBarTitleSwipe-Info.plist */,
+				0345EDA615415FD90098F617 /* InfoPlist.strings */,
+				0345EDA915415FD90098F617 /* main.m */,
+				0345EDAB15415FD90098F617 /* NavBarTitleSwipe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0345EDBD154160070098F617 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0345EDBE154160260098F617 /* SwipeLabel.h */,
+				0345EDBF154160260098F617 /* SwipeLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0345ED9815415FD90098F617 /* NavBarTitleSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0345EDBA15415FD90098F617 /* Build configuration list for PBXNativeTarget "NavBarTitleSwipe" */;
+			buildPhases = (
+				0345ED9515415FD90098F617 /* Sources */,
+				0345ED9615415FD90098F617 /* Frameworks */,
+				0345ED9715415FD90098F617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavBarTitleSwipe;
+			productName = NavBarTitleSwipe;
+			productReference = 0345ED9915415FD90098F617 /* NavBarTitleSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0345ED9015415FD90098F617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0345ED9315415FD90098F617 /* Build configuration list for PBXProject "NavBarTitleSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0345ED8E15415FD90098F617;
+			productRefGroup = 0345ED9A15415FD90098F617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0345ED9815415FD90098F617 /* NavBarTitleSwipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0345ED9715415FD90098F617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0345EDA815415FD90098F617 /* InfoPlist.strings in Resources */,
+				0345EDB115415FD90098F617 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0345EDB415415FD90098F617 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0345ED9515415FD90098F617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0345EDAA15415FD90098F617 /* main.m in Sources */,
+				0345EDAE15415FD90098F617 /* AppDelegate.m in Sources */,
+				0345EDB715415FD90098F617 /* ViewController.m in Sources */,
+				0345EDC0154160260098F617 /* SwipeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0345EDA615415FD90098F617 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0345EDA715415FD90098F617 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0345EDAF15415FD90098F617 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0345EDB015415FD90098F617 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0345EDB215415FD90098F617 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0345EDB315415FD90098F617 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0345EDB815415FD90098F617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0345EDB915415FD90098F617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0345EDBB15415FD90098F617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavBarTitleSwipe/NavBarTitleSwipe-Prefix.pch";
+				INFOPLIST_FILE = "NavBarTitleSwipe/NavBarTitleSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0345EDBC15415FD90098F617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavBarTitleSwipe/NavBarTitleSwipe-Prefix.pch";
+				INFOPLIST_FILE = "NavBarTitleSwipe/NavBarTitleSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0345ED9315415FD90098F617 /* Build configuration list for PBXProject "NavBarTitleSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0345EDB815415FD90098F617 /* Debug */,
+				0345EDB915415FD90098F617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0345EDBA15415FD90098F617 /* Build configuration list for PBXNativeTarget "NavBarTitleSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0345EDBB15415FD90098F617 /* Debug */,
+				0345EDBC15415FD90098F617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0345ED9015415FD90098F617 /* Project object */;
+}
